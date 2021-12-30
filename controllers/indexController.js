@@ -4,7 +4,7 @@ let controller = {
         res.render('index')
     },
     detalle: (req, res) => {
-        res.render('detalle')
+        res.render('detalleMenu')
     }
 }
 
