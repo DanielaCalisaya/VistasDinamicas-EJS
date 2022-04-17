@@ -1,12 +1,25 @@
-let controller = {
+const fs = require('fs');
+const path = require('path');
+
+const productsFilePath = path.join(__dirname, '../data/menu.json');
+const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+
+const controller = {
 
     index: (req, res) => {
-        res.render('index')
+        res.render('index', { //renderizo y llevo todos los productos o platos
+            products
+        })
     },
-    detalle: (req, res) => {
+    detail: (req, res) => {
         
-        let detail = req.params.id
-        res.render('detalle/id')
+        let productId = +req.params.id
+        let product = products.find(product => product.id === productId)
+
+        res.render('detalleMenu', {
+            product
+        })
+
     }
 }
 
