@@ -5,7 +5,7 @@ const controller = require('../controllers/indexController');
 
 /* GET home page. */
 router.get('/', controller.index);
-router.get('/detalleMenu/:id/', controller.detail);
+router.get('/detail/:id', controller.detail);
 
 
 module.exports = router;

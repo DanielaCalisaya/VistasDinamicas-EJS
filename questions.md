@@ -1,3 +1,10 @@
+## Objetivo
+La empresa de rubro gastronómico Pimienta & Sal nos contrata para modificar su sitio
+corporativo, que actualmente posee información estática, a una versión dinámica, ya que
+en los próximos meses cambiará su carta y estará ofreciendo un menú estacionario.
+Como base nos proveen el HTML y el CSS.
+¡Buena suerte!😎👍✨
+
 ## Micro desafío - Paso 1
 Debemos generar un proyecto con express-generator, el desarrollo deberá estar basado
 en EJS como motor de plantillas. Asimismo, se busca que las vistas estén construidas bajo
