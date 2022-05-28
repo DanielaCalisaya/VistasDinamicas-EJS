@@ -14,6 +14,9 @@ Este proyecto está realizado con *express-generator* es decir un generador de p
 Además se utiliza Template Engine o motor de plantillas(EJS) permitiendo que haya vistas que tengan estructuras e información dinámicas.
 😎👍✨
 
+Link deployed to Heroku:  https://vistas-dinamicas.herokuapp.com/
+Pd: Proyecto solo en versión desktop
+
 ## M5 C20
 
 ## Ubicación -> Programación/TRABAJOS PRACTICOS/vistasDinamicas
